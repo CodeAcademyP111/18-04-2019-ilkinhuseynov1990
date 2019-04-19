@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border:thin solid #000;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*cv header*/
+.cv-header{
+    height: 85px;
+}
+
+
+
+.fname{
+    float: left;
+    background-color: #d4d4d4;
+}
+
+
+ul.adress-text{
+    float: right;
+    list-style: none;
+}
+
+
+ul.adress-text li{
+    text-align: right;
+    margin:1px 0 0 0;
+}
+
+ul.adress-text li .gray{
+    background-color: #d4d4d4;
+}
+
+/* cv header */
+
+/* cv body */
+
+.main .resume{
+    margin:10% 0 0 0;
+}
+.main .resume h3{
+    background-color: #d4d4d4;
+    padding:0 0 10px 10px;
+
+}
+
+.main .resume .resume-text{
+    padding: 10px;
+}
+
+.resume .resume-text p{
+    margin:20px 0 0 0;
+}
+
+/* cv body */
+
+/* cv experience */
+.wordexperience{
+    margin:10%  0 0 0 ;
+}
+
+.wordexperience .wexperhead h3{
+    background-color: #d4d4d4;
+    padding:0 0 10px 10px;  
+}
+
+.wordexperience .wordexperience-text{
+    margin:5% 0 0 0;
+}
+
+.wordexperience .wordexperience-text ul.jobs{
+    list-style-type: none;
+    margin:0 0 2% 0;
+}
+
+.wordexperience .wordexperience-text ul.jobs li.selected{
+    font-weight: bolder;
+}
+
+
+.wordtotalexperience .wordexperience-text ul.responsible{
+    padding: 0 0 0 15px;
+}
+
+.wordexperience .wordtotalexperience{
+    margin:0 0 5% 0; 
+}
+/* cv experience */
+
+@media screen and (max-width: 768px){
+    .main{
+        width: auto;
+        margin:0 auto;
+        font-size: 1em;
+    }
+    .fname{
+        width: 100%;
+        margin:0 0 5% 0;
+        float: none;
+    }
+    .cv-header{
+        margin:0 0 20% 0; 
+    }
+    .cv-header .address{
+        float:none;
+        width: 100%;
+    }
+
+    .cv-header .address {
+        float: none;
+
+    }
+    .cv-header .address ul.adress-text li{
+        text-align:left;
+    }
+
+    .cv-header .address ul.adress-text{
+        float: none;
+    }
+
+}
